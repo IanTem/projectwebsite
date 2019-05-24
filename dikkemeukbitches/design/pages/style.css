@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* STYLING THE HOMEPAGE */
+.card{
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+.card h1, .card p{
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    padding-top: 2em;
+}
+.card .cta{
+
+    /* margin: 0 auto; */
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+    bottom: 100px;
+}
+.card .cta a{
+    width: 100%;
+    padding: 1em;
+    color: #FFF;
+    border: 1px solid #FFF;
+    text-decoration: none;
+}
+
+/* centering all the shizl */
+.card > *{
+    text-align: center;
+}
+
